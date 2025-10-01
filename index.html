@@ -5,9 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Montserrat&family=Lobster&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1>Real Time Word counter</h1>
+    <div class="select-container">
+        <select id="font-select">
+            <option value="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" selected>Segoe UI</option>
+            <option value="Arial, sans-serif">Arial</option>
+            <option value="'Roboto', sans-serif">Roboto</option>
+            <option value="'Montserrat', sans-serif">Montserrat</option>
+            <option value="'Lobster', cursive">Lobster</option>
+        </select>
+        <select name="" id="fontSize-select">
+            <option value="8px" selected>8px</option>
+            <option value="9px">9px</option>
+            <option value="10px">10px</option>
+            <option value="11px">11px</option>
+            <option value="12px">12px</option>
+            <option value="13px">13px</option>
+            <option value="14px">14px</option>
+            <option value="15px">15px</option>
+            <option value="16px">16px</option>
+            <option value="17px">17px</option>
+            <option value="18px">18px</option>
+            <option value="19px">19px</option>
+            <option value="20px">20px</option>
+            <option value="21px">21px</option>
+            <option value="22px">22px</option>
+            <option value="23px">23px</option>
+            <option value="24px">24px</option>
+            <option value="25px">25px</option>
+        </select>
+    </div>
     <textarea name="input" id="input" placeholder="Type your text here..."></textarea>
     <p>Word Count: <span id="count"></span></p>
     
